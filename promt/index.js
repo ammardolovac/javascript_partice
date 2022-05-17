@@ -8,4 +8,4 @@ var brojGodina = parseInt(UnosVrednosti) - parseInt(UnosDrugeVrednosti);
 
 var textZaConoslu = "Godine: ";
 
-console.log(textZaConsolu + brojGodina);
+console.log(textZaConoslu + brojGodina);

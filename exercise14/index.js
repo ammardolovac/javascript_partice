@@ -128,3 +128,16 @@
 // }
 
 // setupHelp();
+
+// fetch("https://catfact.ninja/fact")
+//   .then((res) => {
+//     res.json().then((res) => {
+//       console.log(res.data);
+//       maxNum = 0;
+//       for(el of     )
+//     });
+//   })
+
+//   .catch((err) => {
+//     console.log("neuspesno resen zad", err);
+//   });

@@ -447,7 +447,7 @@
 // 1601 --> 17
 // 2000 --> 20
 
-//function century(year) {
+// function century(year) {
 //   let result = 0;
 //   for (let i = 0; i < year; i++) {
 //     if (i % 100 === 0) {
@@ -458,7 +458,7 @@
 // }
 // console.log(century(50));
 
-//=======================
+// =======================
 // dns
 
 // http
@@ -473,7 +473,7 @@
 
 // osi model
 
-//==========================================================
+// ==========================================================
 
 // Make a program that filters a list of strings and returns a list with only your friends name in it.
 
@@ -490,5 +490,24 @@
 //     return friends.filter(el => el.length === 4);
 //   }
 
-//===========================================================
+// ===========================================================
 
+// Given a string of digits, you should replace any digit below 5
+// with '0' and any digit 5 and above with '1'. Return the resulting string.
+
+// Note: input will never be an empty string
+
+// function fakeBin(x) {
+//   let result = [];
+//   let y = x.split("");
+//   for (i = 0; i < y.length; i++) {
+//     if (y[i] < 5) {
+//       result.push(0);
+//     } else if (y[i] >= 5) {
+//       result.push(1);
+//     }
+//   }
+//   return result.join("");
+// }
+
+//=====================================================================

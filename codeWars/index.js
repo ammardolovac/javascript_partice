@@ -509,5 +509,38 @@
 //   }
 //   return result.join("");
 // }
+//=====================================================================
+
+//--------------------------------------------------------------
+
+// Proveriti kako funkconise ovaj zadatak i nauciti :
+// dns
+
+// http
+
+// https
+
+// udp
+
+// sta je internet
+
+// tcp
+
+// osi model
+//--------------------------------------------------------------
+
+//function DNAStrand(dna) {
+//   let result = "";
+//   for (let i = 0; i < dna.length; i++) {
+//     if (dna[i] == "A") {
+//       result += "T";
+//     } else {
+//       result += dna[i];
+//     }
+//   }
+
+//   return result;
+// }
+// console.log(DNAStrand(["AAAAAAAAA"]));
 
 //=====================================================================

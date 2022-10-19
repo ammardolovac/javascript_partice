@@ -513,20 +513,20 @@
 
 //--------------------------------------------------------------
 
-// Proveriti kako funkconise ovaj zadatak i nauciti :
-// dns
+//             Proveriti kako funkconise ovaj zadatak i nauciti :
+//                          dns
 
-// http
+//                          http
 
-// https
+//                          https
 
-// udp
+//                          udp
 
-// sta je internet
+//                          sta je internet
 
-// tcp
+//                          tcp
 
-// osi model
+//                          osi model
 //--------------------------------------------------------------
 
 //function DNAStrand(dna) {

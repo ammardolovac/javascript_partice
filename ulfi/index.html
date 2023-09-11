@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<style>
+img {
+width: 321px;
+}
+
+#unutrasnji{
+width: 100%;
+height: 100%;
+margin: 50px auto;
+
+}
+.omotac{
+display: flex;
+width: 35%;
+height: 250px;
+margin-bottom: 10px;
+border: 2px solid black;
+margin: 50px auto;
+
+}
+</style>
+<div id="unutrasnji"></div>
+<script>
+var obj1={
+    ime:"Petar",
+    prezime:"Petrovic",
+    prosek:8,
+    fotografija:"images.jpeg"
+};
+
+function prikazi(unutrasnji,obj){
+    var spoljasnji = document.getElementById("unutrasnji");
+    var ul = document.createElement("ul");
+    var li1 = document.createElement("li");
+    var li2 = document.createElement("li");
+    var li3 = document.createElement("li");
+    var li4 = document.createElement("li");
+
+    var dugme = document.createElement("button");
+    dugme.innerHTML = "prosledi";
+    li1.innerHTML = "ime je :" + obj.ime;
+    li2.innerHTML = "prezime je :" + obj.prezime;
+    li3.innerHTML = "prosek je :" + obj.prosek;
+    li4.appendChild(dugme);
+    var div2 = document.createElement("div");
+        
+    div2.classList = "omotac";
+    var img = document.createElement("img");
+    img.src = obj.fotografija;
+    
+    div2.appendChild(img);
+    ul.appendChild(li1);
+    ul.appendChild(li2);
+    ul.appendChild(li3);
+    ul.appendChild(li4);
+    div2.appendChild(ul);
+    spoljasnji.appendChild(div2);
+
+
+}
+
+prikazi(unutrasnji, obj1)
+</script>
+<body>
+
+</body>
+</html>

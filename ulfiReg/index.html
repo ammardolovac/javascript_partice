@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <input type="text" id="email">
+    <button onclick="execute()">PROVERI</button>
+    <p id="rezultat"></p>
+</head>
+<script>
+function execute() {
+ 
+    var reg = document.getElementById("email").value;
+    var rez  = document.getElementById("rezultat");
+    var regex = /^https?:\/\/\/\w+([\.])\w+\.com$/
+
+    if(regex.test(reg)){
+         
+        rez.innerHTML = "ispravno unet email";
+        rez.style.color = "green";
+
+    }
+    else{
+ 
+        rez.innerHTML = "nije ispravno unet";
+        rez.style.color = "red";
+    }
+    
+}
+
+
+
+</script>
+<body>
+    
+</body>
+</html>
